@@ -1,0 +1,4 @@
+cron:
+- description: Serious tweets!
+  url: /cron
+  schedule: every mon,wed,fri 18:37

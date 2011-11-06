@@ -1,0 +1,116 @@
+body{
+	font-family: 'League Gothic';
+
+	background-color: #45403B;
+	text-align: center ;
+
+
+}
+
+#wrapper{
+	width:1040px;
+    height:100%
+    
+    padding:0px;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px; 
+
+	
+}
+
+h1{
+color:white;
+	font-size:80px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	margin-top:0px;
+}
+
+h2{
+	font-size:40px;
+	margin:10px;
+}
+
+h3{
+	color:white;
+	font-size:25px;
+	margin-top:0px;
+}
+
+#addTweet{
+
+
+}
+
+
+
+#preTweetContainer{
+	text-aling:center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color:#4ED5FF;
+	width:500px;
+	overflow:auto;
+	margin:10px;
+	height:400px;	
+	float:left;	
+	margin-top:0px;
+}
+
+
+#postTweetContainer{
+	
+	background-color:#FFBB5E;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+	width:500px;
+	overflow:auto;
+	margin:10px;
+	height:400px;
+
+
+}
+
+.preTweet{
+	margin:20px;
+	margin-left:auto;
+    margin-right:auto;
+	padding:15px;
+	background-color:#FFFFFF;
+	width:80%;;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	font-size:25px;
+	
+
+
+}
+
+.postTweet{
+position:relative;
+padding:15px;
+	margin:20px;
+	margin-left:auto;
+    margin-right:auto;
+	background-color:#FFFFFF;
+	width:80%;;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	font-size:25px;
+
+}
+
+.postTweetDate{
+	position:absolute;
+	float:right;
+	bottom:0px;
+	color:#B5B6B8;
+	font-size:15px;
+	left:320px;
+	
+
+
+}

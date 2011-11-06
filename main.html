@@ -1,0 +1,46 @@
+  <head>
+    <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+	<link href="http://kernest.com/fonts/league-gothic.css" media="screen" rel="stylesheet" type="text/css" />
+
+  </head>
+<body> 
+<div id="wrapper">
+	  
+	<h1>Advice From Rob</h1>
+	<h3>Good intentions at its finest.</h3>
+	
+	<div id="addTweet">
+		<form method="post" action="">
+
+			
+			<TEXTAREA NAME="adviceTweet" COLS=40 ROWS=6></TEXTAREA>
+			
+			<input type="submit" value="Add It!" />
+			
+		</form>
+	</div>
+	
+	<div id="preTweetContainer">	
+		<h2> To Be Tweeted </h2>
+		{% for tweet in pre_tweets %}
+			<div class="preTweet">
+				{{tweet.advice}}
+			</div>
+		{% endfor %} 
+	</div>
+	
+	<div id="postTweetContainer">	
+		<h2>Tweeted Advice</h2>
+		{% for tweet2 in post_tweets %}
+			<div class="postTweet">
+				{{tweet2.advice}}
+				<div class="postTweetDate">
+					{{tweet2.dateTweeted|date:"P M j"}}
+				</div>
+			</div>
+		{% endfor %} 
+	</div>
+</div>
+</body>
+
+
